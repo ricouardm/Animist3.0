@@ -1104,7 +1104,7 @@ Hotkey (Plus) // SOS HEAL +
   }
 
 
-Hotkey (Oem1) // Kill Turrets ''
+Hotkey (Oem7) // Kill Turrets ''
 
 {
 
