@@ -9,13 +9,14 @@
 // Team Members
 
 // DRIVER : Boiabandee --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DRIVER
-// HEALER1: Mimipousse --> Bard --> Nuture 50, Regrowth 43   --> Window name:  HEALER1
-// HEALER2: Bamilekee --> 42 nurture, 33 regen  --> Window name: HEALER2 
-// BLOCKBOT: Bamoun --> 42 shield, 33 regrowth, 49 nurture  --> Window name: BLOCKBOT
-// DPS1:  Ewondo --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DPS1
-// DPS2:  Manguissa --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DPS2
-// DPS3:  Douala --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DPS3
-// DPS4: Mboum --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DPS4
+// DRIVER: Boiabandee --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DRIVER
+// HEALER1: Mimipousse --> Bard --> Nuture 50, Regrowth 43 --> Window name:  HEALER1
+// HEALER2: Bamilekee --> Druid --> Nurture 42, 33 Regen 33 --> Window name: HEALER2 
+// BLOCKBOT: Bamoun --> Warden --> Shield 42, Regrowth 33, Nurture 49 --> Window name: BLOCKBOT
+// DPS1: Ewondo --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS1
+// DPS2: Manguissa --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS2
+// DPS3: Douala --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS3
+// DPS4: Mboum --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS4
 
 
 Hotkey ( F1 ) // Mushroom
