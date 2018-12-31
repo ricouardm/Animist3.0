@@ -24,72 +24,70 @@ Hotkey ( F1 ) // Mushroom
    
 Package
 
-   {
-    Sendto ( DRIVER )
+  {
+  Sendto ( DRIVER )
 
-   Key (4)  // Planting Med DPS Mushroom
-   Wait (3800)
-   Key (4)  // Planting Heal Mushroom
-   Wait (3800)
-   Key (M)  // Planting Heal Mushroom
-   Wait (3800) 
-   }
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (M)  // Planting Heal Mushroom
+  Wait (3800) 
+  }
 
  Package
 
-   {
-    Sendto ( DPS1)
+  {
+  Sendto ( DPS1)
 
-   Key (4)  // Planting Med DPS Mushroom
-   Wait (3800)
-   Key (4)  // Planting Heal Mushroom
-   Wait (3800)
-   Key (M)  // Planting Heal Mushroom
-   Wait (3800) 
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (M)  // Planting Heal Mushroom
+  Wait (3800) 
    }
 
 Package
 
-   {
-    Sendto ( DPS2)
+  {
+  Sendto ( DPS2)
 
-   Key (4)  // Planting Med DPS Mushroom
-   Wait (3800)
-   Key (4)  // Planting Heal Mushroom
-   Wait (3800)
-   Key (M)  // Planting Heal Mushroom
-   Wait (3800) 
-   }
-
-Package
-
-   {
-    Sendto ( DPS3)
-
-   Key (4)  // Planting Med DPS Mushroom
-   Wait (3800)
-   Key (4)  // Planting Heal Mushroom
-   Wait (3800)
-   Key (M)  // Planting Heal Mushroom
-   Wait (3800) 
-   }
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (M)  // Planting Heal Mushroom
+  Wait (3800) 
+  }
 
 Package
 
-   {
-   
-   Sendto ( DPS4)
+  {
+  Sendto ( DPS3)
 
-   Key (4)  // Planting Med DPS Mushroom
-   Wait (3800)
-   Key (4)  // Planting Heal Mushroom
-   Wait (3800)
-   Key (M)  // Planting Heal Mushroom
-   Wait (3800) 
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (M)  // Planting Heal Mushroom
+  Wait (3800) 
+  }
 
-    }
+Package
 
- }
+  {
+  Sendto ( DPS4)
+
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (4)  // Planting Medium DPS Mushroom
+  Wait (3800)
+  Key (M)  // Planting Heal Mushroom
+  Wait (3800) 
+  }
+
+}
 
 Hotkey ( F2 ) // AOE Spell
 {
@@ -99,10 +97,10 @@ Package
    {
     Sendto ( DRIVER )
 
-   Key (2)  // Casting AOE spell
-   Wait (3300)
-   //Key (2)  // Casting AOE spell
-   //Wait (3300)
+  Key (2)  // Casting AOE spell
+  Wait (3300)
+  //Key (2)  // Casting AOE spell
+  //Wait (3300)
 
     }
 
