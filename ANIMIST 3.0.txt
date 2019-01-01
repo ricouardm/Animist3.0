@@ -50,7 +50,7 @@ Package
   Wait (3800)
   Key (M)  // Planting Heal Mushroom
   Wait (3800) 
-   }
+  }
 
 Package
 
