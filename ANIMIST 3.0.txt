@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.16 Date: 01.01.2019 13:19
+// Script Version :  00.17 Date: 01.01.2019 13:31
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -823,9 +823,6 @@ Package
   {
   Sendto ( DRIVER )
 
-  Wait (300)
-  Key (F)  // assuming F binded to /face
-  Wait (300)
   Key (K)  // set Groundset to 000
   Wait (300)
   }
@@ -833,7 +830,7 @@ Package
  Package
 
   {
-  Sendto ( DPS1)
+  Sendto ( DPS1 DPS2 DPS3 DPS4)
 
   Slash ( "/target DRIVER" )
   Wait (300)
@@ -846,68 +843,7 @@ Package
 Package
 
   {
-  Sendto ( DPS2)
-
-  Slash ( "/target DRIVER" )
-  Wait (300)
-  Key (F)  // assuming F binded to /face
-  Wait (300)
-  Key (K)  // set Groundset to 000
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto ( DPS3)
-
-  Slash ( "/target DRIVER" )
-  Wait (300)
-  Key (F)  // assuming F binded to /face
-  Wait (300)
-  Key (K)  // set Groundset to 000
-  Wait (300) 
-  }
-
-Package
-
-  {
-  Sendto ( DPS4)
-
-  Slash ( "/target DRIVER" )
-  Wait (300)
-  Key (F)  // assuming F binded to /face
-  Wait (300)
-  Key (K)  // set Groundset to 000
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto ( HEALER1)
-
-  Slash ( "/target DRIVER" )
-  Wait (300)
-  Key (F)  // assuming F binded to /face
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto ( HEALER2)
-
-  Slash ( "/target DRIVER" )
-  Wait (300)
-  Key (F)  // assuming F binded to /face
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto ( BLOCKBOT)
+  Sendto ( HEALER1 HEALER2)
 
   Slash ( "/target DRIVER" )
   Wait (300)
