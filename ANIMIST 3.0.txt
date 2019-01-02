@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.20 Date: 01.01.2019 16:24
+// Script Version :  00.21 Date: 01.01.2019 17:10
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -37,8 +37,8 @@ Package
   Wait (3800)
   Key (4)  // Planting Medium DPS Mushroom
   Wait (3800)
-  Key (4)  // Planting Medium DPS Mushroom
-  Wait (3800) 
+  //Key (4)  // Planting Medium DPS Mushroom
+  //Wait (3800) 
   }
 
 }
@@ -55,6 +55,15 @@ Package
   Wait (3300)
   //Key (2)  // Casting AOE spell
   //Wait (3300)
+  }
+
+Package
+
+  {
+  Sendto (HEALER1 HEALER2 BLOCKBOT )
+
+  Wait (3500)
+  Key (3) // All Healers Cast standard  group heal
   }
 
  }
@@ -163,56 +172,12 @@ Hotkey (F7) // SOS DPS Quick Cast and AOE DPS on all Animists
 Package
 
   {
-  Sendto (DRIVER)
+  Sendto (DRIVER DPS1 DPS2 DPS3 DPS4)
 
   Key (H) // QuickCast
   Wait (300)
   Key (2) // AOE
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS1)
-
-  Key (H) // QuickCast
-  Wait (300)
-  Key (2) // AOE
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS2)
-  
-  Key (H) // QuickCast
-  Wait (300)
-  Key (2) // AOE
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS3)
-  
-  Key (H) // QuickCast
-  Wait (300)
-  Key (2) // AOE
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS4)
-  
-  Key (H) // QuickCast
-  Wait (300)
-  Key (2) // AOE
-  Wait (300)
+  Wait (3300)
   }
 
 }
