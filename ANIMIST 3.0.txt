@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.19 Date: 01.01.2019 16:05
+// Script Version :  00.20 Date: 01.01.2019 16:24
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -87,7 +87,7 @@ Package
 
   {
   
-  Sendto (DPS1)
+  Sendto (DPS1 DPS2 DPS3 DPS4)
   
   Slash ( "/assist DRIVER" )
   Wait (300)
@@ -105,75 +105,6 @@ Package
  //Wait (3100)
  //Key (8) // Cast wisp
  //Wait (3100)
-  }
-
-Package
-
-  {
-  Sendto (DPS2)
-  
-  Slash ( "/assist DRIVER" )
-  Wait (300)
-  Slash ( "/face" )
-  Wait (300)
-  Key (1) // Send pet
-  Wait (300) 
-  Key (0) // Cast Debbuf Constitution
-  Wait (300)
-  Key (8) // Cast wisp
-  Wait (3100)
-  Key (8) // Cast wisp
-  Wait (3100)
- //Key (8) // Cast wisp
- //Wait (3100)
- //Key (8) // Cast wisp
- //Wait (3100)
-  }
-
-Package
-
-  {
-  Sendto (DPS3)
-  
-  Slash ( "/assist DRIVER" )
-  Wait (300)
-  Slash ( "/face" )
-  Wait (300)
-  Key (1) // Send pet
-  Wait (300) 
-  Key (0) // Cast Debbuf Constitution
-  Wait (300)
-  Key (8) // Cast wisp
-  Wait (3100)
-  Key (8) // Cast wisp
-  Wait (3100)
- //Key (8) // Cast wisp
- //Wait (3100)
- //Key (8) // Cast wisp
- //Wait (3100)
-  }
-
-Package
-
-  {
-  Sendto (DPS4)
-  
-  Slash ( "/assist DRIVER" )
-  Wait (300)
-  Slash ( "/face" )
-  Wait (300)
-  Key (1) // Send pet
-  Wait (300) 
-  Key (0) // Cast Debbuf Constitution
-  Wait (300)
-  Key (8) // Cast wisp
-  Wait (3100)
-  Key (8) // Cast wisp
-  Wait (3100)
-  //Key (8) // Cast wisp
-  //Wait (3100)
-  //Key (8) // Cast wisp
-  //Wait (3100)
   }
 
 }
@@ -185,28 +116,10 @@ Hotkey (F4) // All Healers Cast standard  group heal
 Package
 
   {
-  Sendto (HEALER1)
+  Sendto (HEALER1 HEALER2 BLOCKBOT)
   
   Key (3) //all healers cast standard group heal
   Wait (2300)
-  }
-
-Package
-
-  {
-  Sendto (HEALER2)
-  
-  Key (3) // all healers cast standard group heal
-  Wait (2300)
-  }
-
-Package
-
-  {
-  Sendto (BLOCKBOT)
-  
-  Key (3) // all healers cast standard group heal
-  Wait (2900)
   }
 
 }
@@ -218,27 +131,9 @@ Hotkey (F5) // All Healers Cast specialized  group heal
 Package
 
   {
-  Sendto (HEALER1)
+  Sendto (HEALER1 HEALER2 BLOCKBOT)
 
   Key (6) //Large specialized group heal
-  Wait (3300)
-  }
-
-Package
-
-  {
-  Sendto (HEALER2)
-
-  Key (6) // Large specialized group heal
-  Wait (3300)
-  }
-
-Package
-
-  {
-  Sendto (BLOCKBOT)
-
-  Key (6) // Large specialized group heal
   Wait (3300)
   }
 
@@ -251,33 +146,11 @@ Hotkey (F6) // All Healers Cast specialized heal on Driver Target
 Package
 
   {
-  Sendto (HEALER1)
+  Sendto (HEALER1 HEALER2 BLOCKBOT)
 
   Slash ( "/assist DRIVER" )
   Wait ( 300 )
   Key (5) //Large specialized single target heal
-  Wait (3300)
-  }
-
-Package
-
-  {
-  Sendto (HEALER2)
-
-  Slash ( "/assist DRIVER" )
-  Wait ( 300 )
-  Key (5) // Large specialized single target heal
-  Wait (3300)
-  }
-
-Package
-
-  {
-  Sendto (BLOCKBOT)
-
-  Slash ( "/assist DRIVER" )
-  Wait ( 300 )
-  Key (5) // Large specialized single target heal
   Wait (3300)
   }
 
