@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.24 Date 03.01.2019 12:41
+// Script Version :  00.26 Date 03.01.2019 19:26
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -937,3 +937,12 @@ Package
   }
 
 }
+
+Hotkey (Oem3) // Escape 
+ 
+  {
+  Sendto ( HEALER1 HEALER2 BLOCKBOT )
+
+  Slash ( "/quit ) // in case of issue, i send a /quit to all healers
+  Wait (22000)
+  }
