@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.23 Date 03.01.2019 12:18
+// Script Version :  00.24 Date 03.01.2019 12:41
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -127,7 +127,7 @@ Package
   {
   Sendto (HEALER1 HEALER2 BLOCKBOT)
   
-  Key (3) //all healers cast standard group heal
+  Key (3) // All healers cast standard group heal
   Wait (2300)
   }
 
@@ -185,7 +185,6 @@ Package
 
 Hotkey ( F8 ) // BUFF KEY
 
-
 {
  
 Package
@@ -213,7 +212,7 @@ Package
   Wait ( 2300 )
   Key ( 7 ) // Cast End song
   Wait ( 3300 )
-	//Key ( 0 ) // Cast speed song
+	//Key ( 0 ) // Cast speed song removed to be able to cast it when desired
   //Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
@@ -293,7 +292,7 @@ Package
   {
   Sendto ( HEALER2 )
 
-  // Buff HeaLER 2
+  // Buff Healer 2
 
   Slash ( "/target HEALER2" )
   Wait ( 300 )
@@ -312,6 +311,8 @@ Package
   Slash ( "/target BLOCKBOT" )
   Wait ( 300 )
   Key ( U ) // DEX/QUI
+  Wait ( 3300 )
+  Key ( O ) // CON/STR
   Wait ( 3300 )
 
   // Buff Driver
