@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.27 Date 04.01.2019 12:09
+// Script Version :  00.28 Date 04.01.2019 17:24
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -553,7 +553,7 @@ Hotkey ( F9 ) // Stick Macro - sending stick to all toons except driver
 Hotkey ( F10 ) // Breack stick - sending stick to all toons except driver
 
 {
-  Sendto ( DPS1 DPS2 DPS3 DPS4 HEALER1 HEALER2 BLOCKBOT )
+  Sendto ( DPS1 DPS2 DPS3 DPS4 HEALER1 HEALER2 )
 
    Key ( S ) // going back to break the stick 
 }
@@ -950,7 +950,7 @@ Hotkey (Oem3)
 	Slash ( "/invite DPS4" )
  	Slash ( "/invite HEALER1" )
 	Slash ( "/invite HEALER2" )
-	Slash ( "/invite BLOCKBOT" )     ...
+	Slash ( "/invite BLOCKBOT" )
    }
    
    package
