@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.28 Date 04.01.2019 17:24
+// Script Version :  00.29 Date 04.01.2019 18:14
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -957,7 +957,7 @@ Hotkey (Oem3)
    {
     Sendto ( DPS1 DPS2 DPS3 DPS4 HEALER1 HEALER2 BLOCKBOT )
 
-    Wait(500)
-    ClickMouse (625 430)     
+    Wait(1000)
+    ClickMouse (625 430) // location of the Accept Invite button     
    }
 }
