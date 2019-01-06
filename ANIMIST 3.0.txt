@@ -1,10 +1,8 @@
 // Team Animist  3.0
 
-<<<<<<< HEAD
 // Script Version :  00.29 Date 06.01.2019 12:18
-=======
-// Script Version :  00.29 Date 04.01.2019 18:14
->>>>>>> 3e87ad0e70594dcda5c2365ec2f1e87fda0a3514
+
+// S
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -87,7 +85,9 @@ Package
   {
   Sendto (DRIVER)
   
-  Wait (900)
+  Wait (300)
+  Slash ( "/face" )
+  Wait (300)
   Key (1) // Send pet
   Wait (300) 
   Key (0) // Cast Debbuf Constitution
