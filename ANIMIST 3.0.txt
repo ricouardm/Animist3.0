@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.28 Date 04.01.2019 17:24
+// Script Version :  00.29 Date 06.01.2019 12:18
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -339,6 +339,8 @@ Package
   Key ( U ) // DEX/QUI
   Wait ( 3300 )
   Key ( I ) // INT
+  Wait ( 3300 )
+  Key ( O ) // CON/STR
   Wait ( 3300 )
 
   // Buff DPS 2
