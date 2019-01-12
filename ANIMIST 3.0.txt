@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.29 Date 06.01.2019 12:18
+// Script Version :  00.29 Date 08.01.2019 17:35
 
 // S
 
@@ -235,7 +235,7 @@ Package
   Wait ( 3300 )
   Key ( I ) // CON
   Wait ( 3300 )
-  Key ( P ) // AF BARD
+  Key ( P ) // Cast AF BARD
   Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
@@ -250,8 +250,8 @@ Package
   Wait ( 3300 )
 	Key ( O ) // AF
   Wait ( 3300 )
-	//Key ( P ) // AF BARD
-  // Wait ( 3300 )
+	Key ( P ) // Cast AF BARD
+  Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
@@ -263,8 +263,8 @@ Package
   Wait ( 3300 )
   Key ( I ) // CON
   Wait ( 3300 )
-	//Key ( P ) // AF BARD
-  // Wait ( 3300 )
+	Key ( P ) // Cast AF BARD
+  Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
@@ -272,6 +272,8 @@ Package
 
   Slash ( "/target DPS2" )
   Wait ( 300 )
+  Key ( P ) // Cast AF BARD
+  Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
@@ -279,6 +281,8 @@ Package
 
   Slash ( "/target DPS3" )
   Wait ( 300 )
+  Key ( P ) // Cast AF BARD
+  Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
@@ -286,6 +290,8 @@ Package
 
   Slash ( "/target DPS4" )
   Wait ( 300 )
+  Key ( P ) // Cast AF BARD
+  Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
@@ -293,6 +299,8 @@ Package
 
   Slash ( "/target BLOCKBOT" )
   Wait ( 300 )
+  Key ( P ) // Cast AF BARD
+  Wait ( 3300 )
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
   }
