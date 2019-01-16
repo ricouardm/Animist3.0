@@ -1,8 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.29 Date 08.01.2019 17:35
-
-// S
+// Script Version :  00.30 Date 15.01.2019 16:26
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -11,7 +9,6 @@
 // Team Members
 
 // DRIVER : Boiabandee --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DRIVER
-// DRIVER: Boiabandee --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DRIVER
 // HEALER1: Mimipousse --> Bard --> Nuture 50, Regrowth 43 --> Window name:  HEALER1
 // HEALER2: Bamilekee --> Druid --> Nurture 42, 33 Regen 33 --> Window name: HEALER2 
 // BLOCKBOT: Bamoun --> Warden --> Shield 42, Regrowth 33, Nurture 49 --> Window name: BLOCKBOT
@@ -70,7 +67,7 @@ Package
   {
   Sendto (HEALER1 HEALER2 BLOCKBOT )
 
-  Wait (3500) // adding a delay to make sure that healers don't get the aggro before the DPS's
+  Wait (3500) // Adding a delay to make sure that healers don't get the aggro before the DPS's
   Key (3) // All Healers Cast standard  group heal
   }
 
@@ -90,16 +87,16 @@ Package
   Wait (300)
   Key (1) // Send pet
   Wait (300) 
-  Key (0) // Cast Debbuf Constitution
+  Key (0) // Driver Cast Debbuf Constitution
   Wait (300)
-  Key (8) //all DPS cast wisp
+  Key (8) // Driver Cast wisp
   Wait (3100)
-  Key (8) //all DPS cast wisp
-  Wait (3100)
- //Key (8) //all DPS cast wisp
- //Wait (3100)
- //Key (8) //all DPS cast wisp
- //Wait (3100)
+  Key (9) // Driver Cast lifedrain
+  Wait (2800)
+ //Key (9) // Driver Cast Lifedrain
+ //Wait (2800)
+ //Key (8) // Driver Cast Lifedrain
+ //Wait (2800)
   }
 
 Package
@@ -116,14 +113,14 @@ Package
   Wait (300) 
   Key (0) // Cast Debbuf Constitution
   Wait (300)
-  Key (8) // Cast wisp
+  Key (8) // All DPS Cast wisp
   Wait (3100)
-  Key (8) // Cast wisp
-  Wait (3100)
- //Key (8) // Cast wisp
- //Wait (3100)
- //Key (8) // Cast wisp
- //Wait (3100)
+  Key (9) // All DPS Cast Lifedrain
+  Wait (2800)
+ Key (9) // All DPS Cast Lifedrain
+ Wait (2800)
+ //Key (9) // All DPS Lifedrain
+ //Wait (2800)
   }
 
 }
@@ -202,7 +199,7 @@ Package
   {
   Sendto ( HEALER1 )
 
-  // Buff hEALER 1
+  // Buff HEALER 1
 
   Slash ( "/target HEALER1" )
   Wait ( 300 )
@@ -227,7 +224,7 @@ Package
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
-// Buff Driver
+// Buff DRIVER
 
 	Slash ( "/target DRIVER" )
   Wait ( 300 )
@@ -240,7 +237,7 @@ Package
   Key ( K ) // Cast Bard Resistance
   Wait ( 4300 )
 
-  // Buff Healer 2
+  // Buff HEALER 2
 
   Slash ( "/target HEALER2" )
   Wait ( 300 )
@@ -310,21 +307,21 @@ Package
   {
   Sendto ( HEALER2 )
 
-  // Buff Healer 2
+  // Buff HEALER 2
 
   Slash ( "/target HEALER2" )
   Wait ( 300 )
   Key ( U ) // DEX/QUI
   Wait ( 3300 )
 
-  // Buff Healer 1
+  // Buff HEALER 1
         
 	Slash ( "/target HEALER1" )
   Wait ( 300 )
   Key ( U ) // DEX/QUI
   Wait ( 3300 )
 
-  // Buff BlockBot
+  // Buff BLOCKBOT
 
   Slash ( "/target BLOCKBOT" )
   Wait ( 300 )
@@ -333,7 +330,7 @@ Package
   Key ( O ) // CON/STR
   Wait ( 3300 )
 
-  // Buff Driver
+  // Buff DRIVER
 
   Slash ( "/target DRIVER" )
   Wait ( 300 )
@@ -382,7 +379,7 @@ Package
   Key ( I ) // INT
   Wait ( 3300 )
 
-	// Buff group with druid resitance
+	// HEALER2 apply group resitance to the group
 
   Key ( L ) // DRUID RES
   Wait ( 3300 )
@@ -394,7 +391,7 @@ Package
   {
   Sendto ( BLOCKBOT )
 
-  // Buff Blockbot
+  // Buff BLOCKBOT
 
   Slash ( "/target BLOCKBOT" )
   Wait ( 300 )
@@ -442,14 +439,14 @@ Package
 	Key ( H ) // STR
   Wait ( 3300 )
   
-  // Buff Driver
+  // Buff DRIVER
 
 	Slash ( "/target DRIVER" )
   Wait ( 300 )
   Key ( 8 ) // guard
   Slash ( "/target HEALER2" ) // target Druid
   //Wait ( 300 )
-  //Key ( 9 ) // protect
+  //Key ( 9 ) // protect does not apply to Warden
 
   // Buff group with Warden RS
 
@@ -472,8 +469,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (3300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -491,8 +488,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -510,8 +507,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -529,8 +526,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)  
+  //Key (7) // Bubble
+  //Wait (4300)  
  	}
 
 Package
@@ -548,8 +545,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 }
@@ -635,8 +632,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -654,8 +651,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -673,8 +670,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -692,8 +689,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)  
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -711,8 +708,8 @@ Package
   Wait (3300)
   Key (O) // ADD DMG
   Wait (4300)
-  Key (7) // Bubble
-  Wait (4300)
+  //Key (7) // Bubble
+  //Wait (4300)
  	}
 
 Package
@@ -854,60 +851,53 @@ Hotkey (Oem4) // Cast the animist Tank PET [
 Package
 {
   sendto (BLOCKBOT)
-  Key (E) //  cast the warden Bubble
+  Key (E) //  Cast the warden Bubble
   Wait (300)
 }
 
 Package
 
   {
-  Sendto (DRIVER)
+  Sendto (DRIVER )
   
+  Wait (200)
   Key (P) // Cast the animist Tank PET
   Wait (5300)
   Key (7) // PET in passive
   Wait (300)
   }
-
-Package
-
-  {
+ 
+ {
   Sendto (DPS1)
   
-  Wait (250)
+  Wait (400)
   Key (P) // Cast the animist Tank PET
   Wait (5300)
   Key (7) // PET in passive
   Wait (300)
   }
 
-Package
-
-  {
+ {
   Sendto (DPS2)
   
-  Wait (500)
+  Wait (600)
   Key (P) // Cast the animist Tank PET
   Wait (5300)
   Key (7) // PET in passive
   Wait (300)
   }
 
-Package
-
-  {
+ {
   Sendto (DPS3)
   
-  Wait (750)
+  Wait (800)
   Key (P) // Cast the animist Tank PET
   Wait (5300)
   Key (7) // PET in passive
   Wait (300)
   }
 
-Package
-
-  {
+   {
   Sendto (DPS4)
   
   Wait (1000)
@@ -958,7 +948,7 @@ Hotkey (Oem3)
    {
     Sendto ( DRIVER )
     
-    Slash ( "/invite DPS1" )
+  Slash ( "/invite DPS1" )
 	Slash ( "/invite DPS2" )
 	Slash ( "/invite DPS3" )
 	Slash ( "/invite DPS4" )
