@@ -1,6 +1,6 @@
 // Team Animist  3.0
 
-// Script Version :  00.30 Date 15.01.2019 16:26
+// Script Version :  00.31 Date 17.01.2019 16:05
 
 // IP ADD of DAOC SRV : 107.23.173.143
 
@@ -28,21 +28,21 @@ Package
 
   Key (K)  // Set ground target at 000
   Wait (300)
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800)
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800)
   Key (M)  // Planting Heal Mushroom
   Wait (3800)
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800)
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800) 
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800)
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800) 
-  Key (4)  // Planting Medium DPS Mushroom
+  Key (4)  // Planting  DPS Mushroom
   Wait (3800) 
   }
 
@@ -93,8 +93,8 @@ Package
   Wait (3100)
   Key (9) // Driver Cast lifedrain
   Wait (2800)
- //Key (9) // Driver Cast Lifedrain
- //Wait (2800)
+ Key (9) // Driver Cast Lifedrain
+ Wait (2800)
  //Key (8) // Driver Cast Lifedrain
  //Wait (2800)
   }
@@ -444,7 +444,7 @@ Package
 	Slash ( "/target DRIVER" )
   Wait ( 300 )
   Key ( 8 ) // guard
-  Slash ( "/target HEALER2" ) // target Druid
+  Slash ( "/target Driver" ) // Target Drive
   //Wait ( 300 )
   //Key ( 9 ) // protect does not apply to Warden
 
@@ -490,6 +490,10 @@ Package
   Wait (4300)
   //Key (7) // Bubble
   //Wait (4300)
+   Slash ( "/target BLOCKBOT" )
+  Wait ( 300 )
+  Key (O) // ADD DMG
+  Wait (3300)
  	}
 
 Package
@@ -509,6 +513,10 @@ Package
   Wait (4300)
   //Key (7) // Bubble
   //Wait (4300)
+  Slash ( "/target HEALER1" )
+  Wait ( 300 )
+  Key (O) // ADD DMG
+  Wait (3300)
  	}
 
 Package
@@ -527,7 +535,11 @@ Package
   Key (O) // ADD DMG
   Wait (4300)
   //Key (7) // Bubble
-  //Wait (4300)  
+  //Wait (4300)
+  Slash ( "/target HEALER2" )
+  Wait ( 300 )
+  Key (O) // ADD DMG
+  Wait (3300)  
  	}
 
 Package
@@ -653,6 +665,10 @@ Package
   Wait (4300)
   //Key (7) // Bubble
   //Wait (4300)
+  Slash ( "/target BLOCKBOT" )
+  Wait ( 300 )
+  Key (O) // ADD DMG
+  Wait (3300)
  	}
 
 Package
@@ -672,6 +688,10 @@ Package
   Wait (4300)
   //Key (7) // Bubble
   //Wait (4300)
+  Slash ( "/target HEALER1" )
+  Wait ( 300 )
+  Key (O) // ADD DMG
+  Wait (3300)
  	}
 
 Package
@@ -679,7 +699,7 @@ Package
   {
   Sendto ( DPS3)
 
-  // DPS 3 self buff
+  // DPS3 self buff
 
   Slash ( "/target DPS3" )
   Wait ( 300 )
@@ -691,6 +711,10 @@ Package
   Wait (4300)  
   //Key (7) // Bubble
   //Wait (4300)
+  Slash ( "/target HEALER2" )
+  Wait ( 300 )
+  Key (O) // ADD DMG
+  Wait (3300)
  	}
 
 Package
@@ -698,7 +722,7 @@ Package
   {
   Sendto ( DPS4)
 
-  // DPS 4 self buff
+  // DPS4 self buff
 
   Slash ( "/target DPS4" )
   Wait ( 300 )
@@ -805,39 +829,7 @@ Hotkey (Oem7) // Kill Turrets ''
 Package
 
   {
-  Sendto (DRIVER)
-  Key (J) // Kill All Turrets
-  Wait (300)
-  }
-
-Package
-
-   {
-  Sendto (DPS1)
-  Key (J) // Kill All Turrets
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS2)
-  Key (J) // Kill All Turrets
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS3)
-  Key (J) // Kill All Turrets
-  Wait (300)
-  }
-
-Package
-
-  {
-  Sendto (DPS4)
+  Sendto (DRIVER DPS1 DPS2 DPS3 DPS4)
   Key (J) // Kill All Turrets
   Wait (300)
   }

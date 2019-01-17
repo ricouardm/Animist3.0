@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+# Animist3.0 
 
-You can use the [editor on GitHub](https://github.com/ricouardm/Animist3.0/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#Description : Mojoware, Daoc Animist Macro Team ( 5 Animist, 1 Warden, 1 Bard, 1 Druid) - Darknessfall
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#Team Composition 
 
-### Markdown
+- DRIVER : Boiabandee --> Animist Verdant --> 43 Verdant, 32 Creeping  --> Window name: DRIVER
+- HEALER1: Mimipousse --> Bard --> Nuture 50, Regrowth 43 --> Window name:  HEALER1
+- HEALER2: Bamilekee --> Druid --> Nurture 42, 33 Regen 33 --> Window name: HEALER2 
+- BLOCKBOT: Bamoun --> Warden --> Shield 42, Regrowth 33, Nurture 49 --> Window name: BLOCKBOT
+- DPS1: Ewondo --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS1
+- DPS2: Manguissa --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS2
+- DPS3: Douala --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS3
+- DPS4: Mboum --> Animist Verdant --> 43 Verdant, 32 Creeping --> Window name: DPS4
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## ==REV: 00.31 Date 17.01.2019 16:05==
 
-```markdown
-Syntax highlighted code block
+### Fine name: ANIMIST 3.0.txt
 
-# Header 1
-## Header 2
-### Header 3
+####F1 hotkey:
+- Correct some typo's to reflect recent changes ( removed different level's of shroom's)
 
-- Bulleted
-- List
+####F3 hotkey:
+- Driver and DPS's will cast Wisp (x1) and LifeDrain (x2)
 
-1. Numbered
-2. List
+####F5 hotkey:
+- Correct some typo's
 
-**Bold** and _Italic_ and `Code` text
+####F8 hotkey:
+- DPS 1 will cast Add damages on BLOCKBOT
+- DPS 2 will cast Add damages on HEALER1
+- DPS 3 will cast Add damages on HEALER2
+- BLOCKBOT will Guard Driver ( used to be HEALER2~ DROUD)
 
-[Link](url) and ![Image](src)
-```
+####Minus hotkey:
+- DPS 1 will cast Add damages on BLOCKBOT
+- DPS 2 will cast Add damages on HEALER1
+- DPS 3 will cast Add damages on HEALER2
+- Correct some typo's
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+####Oem7:
+- Simplify the  Kill All Turrets, the same command will be send to all DPS's and the Driver instead of 5 entries
 
-### Jekyll Themes
+##==REV: 00.30 Date 15.01.2019 16:26==
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ricouardm/Animist3.0/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Fine name :ANIMIST 3.0.txt
 
-### Support or Contact
+####Team description:
+  - Removed the dual entry for the Driver
+  - Correct some typo's
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+####F3 hotkey:
+- Animist will now only cast one wisp and after drain 
+- Update the timer of life drain to reflect the exact timer ( 3100 ms to 2800 ms)
+- Correct some typo's
+
+####F8 hotkey:
+- Correct some typos
+- Removed the self bubble from DPS1-4 and DRIVER
+
+####Minus hotkey:
+- Correct some typos
+- Removed the self bubble from DPS1-4 and DRIVER
+
+####Oem4 hotkey:
+- Break down the PET sequence cast to be able to have PET bubbles not stacked (added a buffer of 200ms between casts)
+
+### File name: ANIMIST KEYBOARD.json
+- Removed Key 3 & 5 to free up space and barely used
+
+### File name: ANIMIST KEYBOARD.jpg
+- Removed Key 3 & 5 to free up space and barely used
+
+### Fine name :ANIMIST 3.0 REvision Notes.txt
+- File creation to track changes
